@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Apply Now for Our Course</h1>
+
+    <p>Thank you for your interest in applying for our course. Please fill out the form below to submit your
+        application. <a href="./index.html" target="_self"> Xperience Courses</a>
+    </p>
+    <form>
+        <table cellspacing="5">
+            <caption>Application Form</caption>
+            <tbody>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" placeholder="First Name" name="first_name" required></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" placeholder="Last Name" name="last_name" required></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="gender" value="male">
+                        <label>Male</label><br>
+                        <input type="radio" name="gender" value="Female">
+                        <label>Female</label>
+                    </td>
+
+                </tr>
+                <td>Education</td>
+                <td><input type="radio" name="education" value=" School Student" required>
+                    <label> School Student</label><br>
+                    <input type="radio" name="education" value=" Undergraduate" required>
+                    <label> Undergraduate</label><br>
+                    <input type="radio" name="education" value="Graduate" required>
+                    <label>Graduate</label>
+                </td>
+                <tr>
+                    <td>Bio</td>
+                    <td><textarea placeholder="Tell us about yourself!" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Birth date</td>
+                    <td><input type="date" name="date" required></td>
+                </tr>
+                <tr>
+                    <td>Courses</td>
+                    <td><select name="course" required>
+                            <option value="" selected disabled>Select Course</option>
+                            <option value="front-end mohamed el-hossiny">Front-End | Mohamed El-Hossiny</option>
+                            <option value="back-end  mohamed el-hossiny">Back-End | Mohamed El-Hossiny</option>
+                            <option value="front-end ibrahim mohamed ">Front-End | Ibrahim Mohamed</option>
+                            <option value="back-end ibrahim mohamed">Back-End | Ibrahim Mohamed</option>
+                            <option value="flatter">Flutter | Alaa Ahmed </option>
+                            <option value="network">Network | Sayed Ramzy</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Terms and conditions</td>
+                    <td><input type="checkbox" name="agree" required>
+                        <label>I Agree </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2"><button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+</body>
+
+</html>
